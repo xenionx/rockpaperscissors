@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="text/javascript" src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h2 class="header-title"> Welcome to the Arena </h2>
+        <div class= "header-subtext"> Choose Wisely, Conquer Swiftly </div>
+    </div>
+    <div class="message"></div>
+    <div class="score"></div>
+    <div class="rps">
+        <div class="choice">
+            <img src="rock.png">
+            <button class="Rock">Select Rock</button>
+        </div>
+        <div class="choice">
+            <img src="paper.png">
+            <button class="Paper">Choose Paper</button>
+        </div>
+        <div class="choice">
+            <img src="scissors.png">
+            <button class="Scissors">Pick Scissors</button>
+        </div>
+    </div>
+
+    <button class="restart" disabled> Restart </button>
 </body>
 </html>
